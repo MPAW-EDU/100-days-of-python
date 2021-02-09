@@ -7,6 +7,7 @@ extra_cheese = input("Do you want extra cheese? Y or N ")
 
 #Write your code below this line 👇
 
+# Vars
 large = 25
 medium = 20
 small = 15
@@ -14,8 +15,10 @@ largeMediumPepperoni = 3
 s_pepperoni = 2
 extraCheese = 1
 
+# total price var
 price = 0.00
 
+# Logic
 if size != "S":
     if size == "L": price += large
     if size == "M": price += medium
